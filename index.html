@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Smart Car Control Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to the Smart Car Control Panel</h1>
+    <div id="login">
+      <h2>LogIn Page</h2>
+      <form id="login-form">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+    <div id="user-panel" style="display: none;">
+      <h2 id="welcome-message"></h2>
+      <div id="car-info">
+        <h3>Smart Car Information</h3>
+        <p id="car-details"></p>
+      </div>
+      <button id="logout-button">Log Out</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
